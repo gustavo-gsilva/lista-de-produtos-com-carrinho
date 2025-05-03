@@ -21,7 +21,7 @@ Este projeto consiste no desenvolvimento de uma aplicação web voltada para a e
 ## 📸 Demonstração
 
 ### Versão Desktop
-[<img src="./src/gif-lista-de-produtos.gif">]()
+[<img src="./src/gif-lista-de-produtos.gif">](https://gustavo-gsilva.github.io/lista-de-produtos-com-carrinho/)
 
 ### Versão Mobile
-[<img src="./src/gif-lista-de-produtos-mobile.gif">]()
+[<img src="./src/gif-lista-de-produtos-mobile.gif">](https://gustavo-gsilva.github.io/lista-de-produtos-com-carrinho/)
