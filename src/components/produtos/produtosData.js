@@ -1,0 +1,76 @@
+const produtosData = [
+    {
+        id: 0,
+        produto: './assets/images/image-waffle-desktop.jpg',
+        produtoMobile: './assets/images-mobile/image-waffle-mobile.jpg',
+        nome: 'Waffle',
+        descricao: 'Waffle with Berries',
+        preco: 6.50,
+    },
+    {
+        id: 1,
+        produto: './assets/images/image-creme-brulee-desktop.jpg',
+        produtoMobile: './assets/images-mobile/image-creme-brulee-mobile.jpg',
+        nome: 'Crème Brûlée',
+        descricao: 'Vanilla Bean Crème Brûlée',
+        preco: 7.00,
+    },
+    {
+        id: 2,
+        produto: './assets/images/image-macaron-desktop.jpg',
+        produtoMobile: './assets/images-mobile/image-macaron-mobile.jpg',
+        nome: 'Macaron',
+        descricao: 'Macaron Mix of Five',
+        preco: 8.00,
+    },
+    {
+        id: 3,
+        produto: './assets/images/image-tiramisu-desktop.jpg',
+        produtoMobile: './assets/images-mobile/image-tiramisu-mobile.jpg',
+        nome: 'Tiramisu',
+        descricao: 'Classic Tiramisu',
+        preco: 5.50,
+    },
+    {
+        id: 4,
+        produto: './assets/images/image-baklava-desktop.jpg',
+        produtoMobile: './assets/images-mobile/image-baklava-mobile.jpg',
+        nome: 'Baklava',
+        descricao: 'Pistachio Baklava',
+        preco: 4.00,
+    },
+    {
+        id: 5,
+        produto: './assets/images/image-meringue-desktop.jpg',
+        produtoMobile: './assets/images-mobile/image-meringue-mobile.jpg',
+        nome: 'Pie',
+        descricao: 'Lemon Meringue Pie',
+        preco: 5.00,
+    },
+    {
+        id: 6,
+        produto: './assets/images/image-cake-desktop.jpg',
+        produtoMobile: './assets/images-mobile/image-cake-mobile.jpg',
+        nome: 'Cake',
+        descricao: 'Red Velvet Cake',
+        preco: 4.50,
+    },
+    {
+        id: 7,
+        produto: './assets/images/image-brownie-desktop.jpg',
+        produtoMobile: './assets/images-mobile/image-brownie-mobile.jpg',
+        nome: 'Brownie',
+        descricao: 'Salted Caramel Brownie',
+        preco: 5.50,
+    },
+    {
+        id: 8,
+        produto: './assets/images/image-panna-cotta-desktop.jpg',
+        produtoMobile: './assets/images-mobile/image-panna-cotta-mobile.jpg',
+        nome: 'Panna Cotta',
+        descricao: 'Vanilla Panna Cotta',
+        preco: 6.50,
+    }
+];
+
+export default produtosData;

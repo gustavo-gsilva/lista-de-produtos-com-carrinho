@@ -1,0 +1,37 @@
+@import url('./styles/variables.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Red Hat Text', sans-serif;
+    font-size: 62.5%;
+    background-color: var(--light-gray-color);
+}
+
+.app-container {
+    display: flex;
+    gap: 20px;
+}
+
+@media (max-width: 800px) {
+
+    html {
+        align-items: start;
+    }
+
+    .app-container {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 35px;
+    }
+
+}

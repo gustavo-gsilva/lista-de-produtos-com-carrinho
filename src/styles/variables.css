@@ -1,0 +1,11 @@
+:root {
+    --primary-color: hsl(14, 65%, 9%);
+    --secondary-color: hsl(14, 25%, 72%);
+    --soft-secondary-color: hsl(14, 25%, 94%);
+    --accent-color: hsl(12, 20%, 44%);
+    --highlight-color: hsl(14, 86%, 42%);
+    --light-color: hsl(20, 50%, 98%);
+    --light-gray-color: hsl(13, 31%, 94%);
+    --default-color: hsl(7, 20%, 60%);
+    --shadow-overlay: rgba(0, 0, 0, 0.5);
+}

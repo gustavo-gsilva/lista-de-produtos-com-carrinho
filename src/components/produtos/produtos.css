@@ -1,0 +1,135 @@
+@import url('../../styles/variables.css');
+
+.titulo-produtos {
+    color: var(--primary-color);
+    padding-bottom: 10px;
+    font-size: 1.8rem;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+}
+
+.container-img {
+    position: relative;
+}
+
+.produto {
+    width: 150px;
+    height: 135px;
+    border-radius: 5px;
+}
+
+.produto-active {
+    border: 3px solid var(--highlight-color);
+}
+
+.container-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 33%;
+    left: 13%;
+}
+
+.container-btn img {
+    position: absolute;
+    left: 12%;
+    top: 25%;
+    width: 15px;
+    cursor: pointer;
+}
+
+.container-btn button {
+    padding: 9px 25px 9px 32px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    border: 1.7px solid var(--secondary-color);
+
+    &:hover {
+        border: 1.7px solid var(--accent-color);
+        transition: 0.3s ease-in-out;
+        color: var(--accent-color);
+    }
+}
+
+.container-quantity {
+    background-color: var(--highlight-color);
+    display: flex;
+    gap: 34px;
+    position: absolute;
+    bottom: 33.4%;
+    left: 11%;
+    border-radius: 20px;
+    padding: 8.5px;
+}
+
+.container-quantity span {
+    width: 7px;
+    color: var(--light-color);
+}
+
+.container-quantity .icon-decrement,
+.container-quantity .icon-increment {
+    border: 1px solid var(--light-color);
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    padding: 2px;
+    cursor: pointer;
+}
+
+.container-info {
+    padding: 18px 0;
+}
+
+.container-info .nome-produto {
+    color: var(--secondary-color);
+    font-weight: 400;
+    padding-bottom: 2px;
+}
+
+.container-info .descricao-produto {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding-bottom: 2px;
+}
+
+.container-info .preco-produto {
+    color: var(--highlight-color);
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+@media (max-width: 800px) {
+
+    .titulo-produtos {
+        font-size: 2.5rem;
+        padding: 20px 0 20px 0;
+    }
+
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .produto {
+        width: 100%;
+    }
+
+    .container-btn {
+        left: 27.5%;
+        bottom: 31%;
+    }
+
+    .container-quantity {
+        bottom: 31%;
+        left: 27.5%;
+    }
+
+}
