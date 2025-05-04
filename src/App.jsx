@@ -12,11 +12,15 @@ function App() {
 
     const handleConfirmOrder = () => {
         setPedidoConfirmado(true);
+        
+        document.body.style.overflow = 'hidden';
     };
 
     const handleStartNewOrder = () => {
         setPedidoConfirmado(false);
         iniciarNovoPedido();
+
+        document.body.style.overflow = 'auto';
     };
 
     return (
